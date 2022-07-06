@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Sf Pro Regular';
+    src: url('../fonts/SFPRODISPLAYREGULAR.otf') format('opentype');
+    /*url('fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYBOLD.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYHEAVYITALIC.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYLIGHTITALIC.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYMEDIUM.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYSEMIBOLDITALIC.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYTHINITALIC.otf') format('opentype'),
+        url('fonts/SFPRODISPLAYULTRALIGHTITALIC.otf') format('opentype');*/
+}
+
+@font-face {
+    font-family: 'Sf Pro Medium';
+    src: url('../fonts/SFPRODISPLAYMEDIUM.otf') format('opentype');
+}
+
+:root {
+    --primary-color: #5468E7;
+    --primary-shades: #D1ECFD;
+    --secondary-color: #C897E4;
+    --secondary-shades: #E8BEFF;
+    --dark: #232340;
+    --dark-shades: #323259;
+    --light: #D8D8D8;
+    --light-shades: #EDEDED;
+    --accent-1: #FFC7DF;
+    --accent-2: #FFBA79;
+    --accent-3: #9A97ED;
+    --shade-5: #FFADD0;
+    --shade-6: #FFCE79;
+    --shade-7: #908CFF;
+    --text-dark: #000000;
+    --text-body-light-mode: #606060;
+    --text-desactive: #ADADAD;
+    --text-body-dark-mode: #8B8B8B;
+}
+
+body {
+    font-family: 'Sf Pro Regular';
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}

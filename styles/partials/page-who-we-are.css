@@ -1,0 +1,143 @@
+.who-we-are {
+    background: var(--dark);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.who-we-are-text span {
+    color: var(--text-desactive);
+}
+
+.who-we-are-text h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    display: inline-block;
+    margin: 0 0 24px 24px;
+}
+
+.who-we-are-text p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    font-family: 'Sf Pro Medium';
+    margin-bottom: 32px;
+}
+
+.arrow-date {
+    width: 80%;
+}
+
+.arrow-date,
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-right-arrow {
+    background: var(--primary-color);
+    border-radius: 30px;
+}
+
+
+.left-arrow {
+    background: url(../../image/arrow-down.png) no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+
+.right-arrow {
+    background: url(../../image/arrow-down-2.png) no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+
+.stand-out-img-2 {
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 56px;
+    height: 424px;
+}
+
+.select-date {
+    background: var(--dark);
+    color: white;
+    outline: none;
+    border: none;
+
+}
+
+.contact-us {
+    padding-top: 56px;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-us-text h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.contact-us-text p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--text-body-dark-mode);
+    margin: 40px 0 32px 0;
+}
+
+.contact-us-text button {
+    width: 160px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 56px;
+    cursor: pointer;
+    border: none;
+}
+
+.bigest-branding {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100%;
+    background: var(--dark);
+    box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+    width: 300px;
+    height: 300px;
+}
+
+.bigest-branding-28 {
+    font-weight: 600;
+    font-size: 8.75rem;
+    line-height: 10.40rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bigest-branding-text {
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}

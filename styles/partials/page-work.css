@@ -1,0 +1,88 @@
+.work-title {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 24px;
+}
+
+.work-title span {
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 1.1rem;
+}
+
+.work-title h2 {
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 1.1rem;
+}
+
+.work-famous-projects h3 {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: 80%;
+    margin-bottom: 16px;
+    font-family: 'Sf Pro Medium';
+}
+
+.work-famous-projects p {
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--text-body-light-mode);
+}
+
+.work-painel-img {
+    background-color: #FFBA79;
+    border-radius: 17px;
+    width: 311px;
+    height: 355.56px;
+    position: relative;
+}
+
+.work-painel-img button {
+    position: absolute;
+    bottom: 23px;
+    left: 23px;
+    font-weight: 600;
+    font-size: 9.95556px;
+    line-height: .8rem;
+    color: #ffffff;
+    text-align: center;
+    background: var(--shade-7);
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    width: 119px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.work-painel-item h4 {
+    margin: 24px 0 16px 0;
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    font-family: 'Sf Pro Medium';
+}
+
+.work-painel-item p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--text-body-light-mode);
+    width: 80%;
+}
+
+.work-arrow-button {
+    background: url(../../image/Stroke.png) no-repeat;
+    width: 50px;
+    height: 51px;
+    margin: 24px 0 32px 0;
+}
