@@ -50,3 +50,9 @@
     right: 0;
     z-index: 3;
 }
+
+@media screen and (min-width:406px) {
+    .line-img {
+        top: -21.5%;
+    }
+}

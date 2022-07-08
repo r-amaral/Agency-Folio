@@ -1,5 +1,7 @@
 footer {
     margin-top: 128px;
+    position: relative;
+    padding-bottom: 32px;
 }
 
 .footer-contact {
@@ -10,6 +12,28 @@ footer {
     border-radius: 24px;
     position: relative;
     padding-top: 128px;
+    z-index: 1;
+}
+
+.line-footer-contact {
+    background: url(../../image/line-footer.png) no-repeat;
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: right;
+    z-index: -1;
+}
+
+.line-footer-drop {
+    background: url(../../image/line-footer-drop.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-position: left bottom;
+    z-index:-1;
 }
 
 .footer-text-content {
@@ -77,12 +101,11 @@ footer {
 
 .footer-drop {
     margin-top: 80px;
-    margin-bottom: 34px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    position: relative;
 }
 
 .footer-drop img {
@@ -95,6 +118,7 @@ footer {
     font-size: 16px;
     line-height: 28px;
     color: var(--text-desactive);
+    z-index: 3;
 }
 
 .footer-drop .select {
@@ -116,7 +140,6 @@ footer {
 }
 
 .social-buttons {
-    margin-bottom: 32px;
     display: flex;
     gap: 8px;
 }
