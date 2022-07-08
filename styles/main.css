@@ -25,6 +25,7 @@
 :root {
     --primary-color: #5468E7;
     --primary-shades: #D1ECFD;
+    --primary-gradient: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
     --secondary-color: #C897E4;
     --secondary-shades: #E8BEFF;
     --dark: #232340;
