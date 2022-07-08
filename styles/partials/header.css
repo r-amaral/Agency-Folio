@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
 }
 
 .open-menu-icon,
@@ -21,6 +22,10 @@
     cursor: pointer;
 }
 
+
+.nav-content a {
+    z-index: 3;
+}
 
 .folio-white {
     width: 127.2px;
