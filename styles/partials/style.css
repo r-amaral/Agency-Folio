@@ -12,6 +12,7 @@
 
 .stand-out-page {
     position: relative;
+    margin-bottom: 64px;
 }
 
 .stand-out-text h1 {
@@ -47,7 +48,7 @@
 
 .stand-out-img-mobile {
     position: absolute;
-    top: 28%;
+    bottom: 8%;
     right: 0;
     z-index: 3;
 }
@@ -86,10 +87,12 @@
     .stand-out-text,
     .stand-out-img {
         width: 50%;
+        height: 512px;
     }
 
     .stand-out-page {
         display: flex;
+        margin-bottom: 80px;
     }
 
     .mask-img {
@@ -98,6 +101,7 @@
         width: 405.33px;
         height: 513.42px;
         right: 92px;
+        bottom: 0px;
     }
 
     .stand-out-img-tablet-desktop {
@@ -105,6 +109,7 @@
         height: 728.18px;
         position: absolute;
         top: -160px;
+
         right: 0;
         z-index: 2;
     }
@@ -137,9 +142,5 @@
         font-size: 16px;
         line-height: 22px;
 
-    }
-
-    .stand-out-page {
-        margin-bottom: 200px;
     }
 }

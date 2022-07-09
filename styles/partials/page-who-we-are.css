@@ -14,6 +14,10 @@
     position: relative;
 }
 
+.who-we-are-content {
+    width: 100%;
+}
+
 .who-we-are-title span {
     color: var(--text-desactive);
 }
@@ -37,7 +41,18 @@
 }
 
 .arrow-date {
-    width: 80%;
+    width: 100%;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.select-date {
+    width: 75%;
+    align-self: flex-end;
 }
 
 .arrow-date,
@@ -46,6 +61,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+.arrow-date {
+    gap: 54px;
 }
 
 .link-right-arrow {
@@ -69,10 +88,9 @@
 }
 
 .stand-out-img-2 {
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
-    width: 100%;
-    max-width: 500px;
+    width: 100vw;
     margin-top: 56px;
     height: 424px;
 }
@@ -82,7 +100,6 @@
     color: white;
     outline: none;
     border: none;
-
 }
 
 .contact-us {
@@ -149,23 +166,38 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width:373px) {
+    .contact-us {
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: center;
+    }
+}
+
 @media screen and (min-width:1024px) {
+
+    .control {
+        display: none;
+    }
 
     .who-we-are-logo-desktop,
     .who-we-are-img-principal {
         display: initial;
     }
 
-    /* .folio-dark, */
     .date,
     .stand-out-img-2 {
         display: none;
     }
 
-    /* .nav-content {
-        display: initial;
+    .borda-top {
         height: 40px;
-    } */
+        width: 100vw;
+        position: relative;
+        background: #ffffff;
+        position: absolute;
+        top: 0;
+    }
 
     .who-we-are-title p {
         margin-bottom: 0;
@@ -175,6 +207,7 @@
         display: flex;
         justify-content: space-between;
         z-index: 1;
+        margin-top: 40px;
     }
 
     .who-we-are-logo-desktop,
@@ -207,6 +240,7 @@
     .who-we-are-img-principal {
         z-index: 1;
         position: relative;
+        bottom: 40px;
     }
 
     .date-wo-we-are {
@@ -262,12 +296,21 @@
 
     .contact-us-text {
         margin-right: 46px;
-        width: 37.5%;
+        width: 44%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .contact-us-text h2 {
+        width: 93%;
+        max-width: 450px;
     }
 
     .contact-us-img-content {
         width: 19%;
         align-self: baseline;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .img-contact-us {

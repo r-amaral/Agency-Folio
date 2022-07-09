@@ -1,3 +1,10 @@
+.title-desktop,
+.logo-folio-service,
+.logo-folio-desktop,
+.what-we-do-title .title-desktop {
+    display: none;
+}
+
 .service {
     background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
 }
@@ -12,6 +19,13 @@
 
 .what-we-do-title {
     display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.title-number {
+    display: flex;
     gap: 24px;
 }
 
@@ -25,7 +39,6 @@
 }
 
 .what-we-do p {
-    margin: 24px 0;
     font-weight: 700;
     font-size: 47px;
     line-height: 48px;
@@ -242,4 +255,142 @@
 
 .pagination-items:nth-child(2) {
     background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+@media screen and (min-width:1024px) {
+
+    .service {
+        padding-top: 112px;
+    }
+
+    .logo-folio-service,
+    .logo-folio-desktop,
+    .what-we-do-title .title-desktop {
+        display: initial;
+    }
+
+    .control,
+    .what-we-do-title .title-mobile {
+        display: none;
+    }
+
+    .logo-folio-service {
+        background: url(../../image/logo-folio-services.png) no-repeat;
+        width: 24px;
+        height: 24px;
+    }
+
+    .what-we-do {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .title-number {
+        display: flex;
+        gap: 27px;
+    }
+
+    .what-we-do-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-folio-service,
+    .what-we-do-title,
+    .arrow {
+        width: 20%;
+    }
+
+    .what-we-do-title {
+        width: 60%;
+    }
+
+    .what-we-do-list ul {
+        flex-direction: row;
+        gap: 0;
+        margin-top: 64px;
+    }
+
+    .what-we-do-list li {
+        justify-content: center;
+        box-shadow: none;
+        border-radius: 0;
+        height: 340px;
+        z-index: 300;
+        width: 25%;
+    }
+
+
+    .what-we-do-list li:first-child {
+        border-radius: 32px 0 0 32px;
+    }
+
+    .what-we-do-list li:last-child {
+        border-radius: 0 32px 32px 0;
+    }
+
+    .what-we-do-list li:hover:nth-child(3) {
+        /* background-color: red; */
+    }
+
+    .what-we-do-list ul {
+        height: 400px;
+        align-items: center;
+    }
+
+    .what-we-do-list li {
+        /* transition-property: height; */
+        transition-duration: .5s;
+    }
+
+    .what-we-do-list li:hover {
+        background: var(--primary-color);
+        height: 100%;
+        border-radius: 32px;
+    }
+
+    .what-we-do-list li:hover a {
+        transition-duration: 1s;
+        color: white;
+        font-weight: 0;
+    }
+
+    .list-content {
+        gap: 29px;
+    }
+
+    .what-we-do-list .list-content {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .what-we-do-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 187px;
+    }
+
+    .what-we-do-achivement {
+        width: 42%;
+    }
+
+    .what-we-do-phone-img {
+        width: 42%;
+        order: -1;
+    }
+
+    .what-we-do-achivement-68 {
+        margin-top: 80px;
+    }
+
+    .logo-folio-desktop {
+        background: url(../../image/folio-desktop.png) no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-right: 75px;
+    }
 }
