@@ -47,7 +47,6 @@
     border-radius: 30px;
 }
 
-
 .left-arrow {
     background: url(../../image/arrow-down.png) no-repeat;
     background-position: center;
@@ -61,9 +60,7 @@
     width: 48px;
     height: 48px;
 }
-.what-we-do-list-content li{
-    position: relative;
-}
+
 
 .line-service-1 {
     background: url(../../image/line-service-1.png) no-repeat;
@@ -76,24 +73,26 @@
     top: 18%;
 }
 
-/* .line-services {
+.line-services {
     background: url(../../image/line-services-2.png) no-repeat;
     position: absolute;
     top: 0;
     left: -13%;
-    width: 456.68px;
+    opacity: 0.15;
+    width: 125%;
+    max-width: 456.68px;
     height: 582.58px;
     z-index: -1;
-} */
+}
 
-.what-we-do-list-content {
+.what-we-do-list {
     margin-top: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.what-we-do-list-content ul {
+.what-we-do-list ul {
     list-style: none;
     width: 100%;
     display: flex;
@@ -101,11 +100,11 @@
     gap: 20px;
 }
 
-.what-we-do-list-content li {
+.what-we-do-list li {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 7%;
     background: white;
     border-radius: 32px;
     flex-grow: 1;
@@ -116,6 +115,23 @@
     font-size: 18px;
     line-height: 24px;
     text-align: center;
+}
+
+.list-content {
+    margin-left: 47px;
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+
+.list-content a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .what-we-do-achivement {
@@ -198,7 +214,7 @@
 .circle-phone {
     background: url(../../image/circle-service.png) no-repeat;
     background-position: center center;
-    background-size:contain;
+    background-size: contain;
     top: 15%;
     width: 100%;
     max-width: 330px;

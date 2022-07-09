@@ -1,3 +1,9 @@
+.who-we-are-logo-desktop,
+.who-we-are-img-principal,
+.date-wo-we-are {
+    display: none;
+}
+
 .who-we-are {
     background: var(--dark);
     padding-top: 64px;
@@ -5,13 +11,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
-.who-we-are-text span {
+.who-we-are-title span {
     color: var(--text-desactive);
 }
 
-.who-we-are-text h2 {
+.who-we-are-title h2 {
     color: #ffffff;
     font-weight: 600;
     font-size: 0.8rem;
@@ -20,7 +27,7 @@
     margin: 0 0 24px 24px;
 }
 
-.who-we-are-text p {
+.who-we-are-title p {
     color: #ffffff;
     font-weight: 700;
     font-size: 2.75rem;
@@ -140,4 +147,133 @@
     text-align: center;
     color: #ffffff;
     margin-bottom: 30px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .who-we-are-logo-desktop,
+    .who-we-are-img-principal {
+        display: initial;
+    }
+
+    /* .folio-dark, */
+    .date,
+    .stand-out-img-2 {
+        display: none;
+    }
+
+    /* .nav-content {
+        display: initial;
+        height: 40px;
+    } */
+
+    .who-we-are-title p {
+        margin-bottom: 0;
+    }
+
+    .who-we-are-content {
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    .who-we-are-logo-desktop,
+    .arrow-date {
+        width: 33%;
+    }
+
+    .arrow-date {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .img-computador-content {
+        position: relative;
+        margin-top: 155px;
+        margin-left: 140px;
+    }
+
+    .mask-who-we-are {
+        background: url(../../image/wo-we-are-mask.png) no-repeat;
+        background-size: 100% 100%;
+        width: 75%;
+        height: 773.84px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+    }
+
+    .who-we-are-img-principal {
+        z-index: 1;
+        position: relative;
+    }
+
+    .date-wo-we-are {
+        position: absolute;
+        top: 375px;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 74px;
+        list-style: none;
+    }
+
+    .date-wo-we-are li {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--text-desactive);
+    }
+
+    .list-item-date-active {
+        position: relative;
+    }
+
+    .list-item-date-active span {
+        color: #ffffff;
+    }
+
+    .point-line-active-img {
+        background: url(../../image/point-line-active-date.png) no-repeat;
+        width: 17.07px;
+        height: 2.84px;
+        position: absolute;
+        top: 50%;
+        right: 70px;
+    }
+
+    .point-line-img {
+        position: absolute;
+        background: url(../../image/point-line-date.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 15vw;
+        height: 20px;
+        top: -10%;
+        left: 35px;
+        z-index: 10;
+    }
+
+    .contact-us {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-us-text {
+        margin-right: 46px;
+        width: 37.5%;
+    }
+
+    .contact-us-img-content {
+        width: 19%;
+        align-self: baseline;
+    }
+
+    .img-contact-us {
+        background: url(../../image/Content-img.png);
+        width: 1.42px;
+        height: 56.89px;
+        margin-top: 10px;
+    }
 }
