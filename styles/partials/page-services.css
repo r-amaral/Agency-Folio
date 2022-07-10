@@ -1,7 +1,10 @@
 .title-desktop,
-.logo-folio-service,
+.logo-folio-service-a,
 .logo-folio-desktop,
-.what-we-do-title .title-desktop {
+.what-we-do-title .title-desktop,
+.line-service-desktop,
+.line-service-desktop-2,
+.logo-folio-desktop-a {
     display: none;
 }
 
@@ -265,16 +268,49 @@
 
     .logo-folio-service,
     .logo-folio-desktop,
-    .what-we-do-title .title-desktop {
+    .what-we-do-title .title-desktop,
+    .line-service-desktop,
+    .line-service-desktop-2,
+    .logo-folio-desktop-a {
         display: initial;
     }
 
     .control,
-    .what-we-do-title .title-mobile {
+    .what-we-do-title .title-mobile,
+    .line-service-1,
+    .line-services {
         display: none;
     }
 
-    .logo-folio-service {
+    .line-service-desktop {
+        background: url(../../image/line-service-desktop.png) no-repeat;
+        width: 456.68px;
+        height: 582.58px;
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+
+    .what-we-do-container {
+        position: relative;
+    }
+
+    .line-service-desktop-2 {
+        background: url(../../image/line-service-desktop-2.png) no-repeat;
+        width: 360px;
+        height: 554.92px;
+        position: absolute;
+        top: -70px;
+        right: -12.5%;
+        opacity: .3;
+    }
+
+    .logo-folio-service-a {
+        height: 24px;
+        display: flex;
+    }
+
+    .logo-folio-service-a .logo-folio-service {
         background: url(../../image/logo-folio-services.png) no-repeat;
         width: 24px;
         height: 24px;
@@ -297,7 +333,7 @@
         flex-direction: column;
     }
 
-    .logo-folio-service,
+    .logo-folio-service-a,
     .what-we-do-title,
     .arrow {
         width: 20%;
@@ -371,7 +407,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 187px;
+        padding-top: 187px;
     }
 
     .what-we-do-achivement {
@@ -385,6 +421,10 @@
 
     .what-we-do-achivement-68 {
         margin-top: 80px;
+    }
+
+    .logo-folio-desktop-a {
+        display: flex;
     }
 
     .logo-folio-desktop {

@@ -1,9 +1,13 @@
 .swipe-down,
-.stand-out-img-tablet-desktop {
+.stand-out-img-tablet-desktop,
+.line-img-desktop {
     display: none;
 }
 
 .line-img {
+    background: url(../../image/line-1.png) no-repeat;
+    width: 200px;
+    height: 582.58px;
     position: absolute;
     top: -17%;
     right: 0%;
@@ -61,12 +65,24 @@
 
 @media screen and (min-width: 1024px) {
 
-    .stand-out-img-mobile {
+    .stand-out-img-mobile,
+    .line-img {
         display: none;
     }
 
-    .stand-out-img-tablet-desktop {
+    .stand-out-img-tablet-desktop,
+    .line-img-desktop {
         display: initial;
+    }
+
+    .line-img-desktop {
+        background: url(../../image/stand-out-line-img-desktop.png) no-repeat;
+        width: 456.68px;
+        height: 582.58px;
+        position: absolute;
+        top: -158px;
+        z-index: -1;
+        left: 25.2%;
     }
 
     .stand-out-text h1 {

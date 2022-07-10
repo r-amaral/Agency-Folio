@@ -1,6 +1,7 @@
 .who-we-are-logo-desktop,
 .who-we-are-img-principal,
-.date-wo-we-are {
+.date-wo-we-are,
+.line-img-wo-we-are {
     display: none;
 }
 
@@ -181,8 +182,19 @@
     }
 
     .who-we-are-logo-desktop,
-    .who-we-are-img-principal {
+    .who-we-are-img-principal,
+    .line-img-wo-we-are {
         display: initial;
+    }
+
+    .line-img-wo-we-are {
+        background: url(../../image/line-img-wo-we-are.png) no-repeat;
+        width: 50%;
+        height: 557.85px;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        z-index: -1;
     }
 
     .date,

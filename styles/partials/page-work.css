@@ -1,5 +1,7 @@
 .desktop-item,
-.button-desktop-content {
+.button-desktop-content,
+.line-work-desktop-1,
+.line-img-work-2 {
     display: none;
 }
 
@@ -141,9 +143,32 @@
         padding-top: 112px;
     }
 
+    section {
+        position: relative;
+    }
+
+
     .work-famous-projects a {
         height: 35px;
+    }
 
+    .line-work-desktop-1,
+    .line-img-work-2 {
+        display: initial;
+    }
+
+    .desktop-item-text {
+        position: relative;
+    }
+
+    .line-work-desktop-1 {
+        background: url(../../image/line-work-desktop-1.png) no-repeat;
+        position: absolute;
+        width: 456.68px;
+        height: 582.58px;
+        top: 50%;
+        left: -31%;
+        z-index: -1;
     }
 
     .control,
@@ -157,6 +182,21 @@
         width: 35px;
         height: 35px;
         margin-right: 117px;
+    }
+
+    .desktop-item .line {
+        position: relative;
+    }
+
+
+    .line-img-work-2 {
+        background: url(../../image/line-work-desktop-2.png) no-repeat;
+        position: absolute;
+        width: 619px;
+        height: 554.92px;
+        top: 58%;
+        right: 0;
+        z-index: -1;
     }
 
     .work-famous-projects {
@@ -203,7 +243,6 @@
         display: flex;
         flex-direction: column;
         width: 40%;
-        z-index: 2;
         margin-bottom: 200px;
     }
 
@@ -236,10 +275,11 @@
         background: #D1ECFD;
         position: absolute;
         left: 30.3%;
-        top: 51%;
+        top: 17.5%;
         width: 470px;
         height: 370px;
         border-radius: 16px;
+        z-index: -1;
     }
 
     .img-portofolio {
