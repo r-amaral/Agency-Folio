@@ -1,7 +1,15 @@
 .desktop-item,
 .button-desktop-content,
 .line-work-desktop-1,
-.line-img-work-2 {
+.line-img-work-2,
+.desktop-potifolio-2,
+.desktop-portifolio-1,
+.desktop-portifolio-5,
+.desktop-portifolio-4,
+.desktop-portifolio-principal,
+.button-view,
+.line-work-desktop-3,
+.portofolio-preto-e-branco-desktop {
     display: none;
 }
 
@@ -173,7 +181,12 @@
 
     .control,
     .work-painel-item-mobile,
-    .mobile-button {
+    .mobile-button,
+    .desktop-potifolio-2,
+    .desktop-portifolio-1,
+    .desktop-portifolio-5,
+    .desktop-portifolio-4,
+    .desktop-portifolio-principal {
         display: none;
     }
 
@@ -187,7 +200,6 @@
     .desktop-item .line {
         position: relative;
     }
-
 
     .line-img-work-2 {
         background: url(../../image/line-work-desktop-2.png) no-repeat;
@@ -298,15 +310,15 @@
         top: 21%;
     }
 
-    /* .portofolio-preto-e-branco {
-        position: relative;
+    .portofolio-preto-e-branco-tablet {
+        position: absolute;
         background: url(../../image/portofolio-1-preto-e-branco.png) no-repeat;
-        width: 553.6px;
+        width: 483.6px;
         height: 492.09px;
-        bottom: 10%;
-        right: -65%;
+        top: 11%;
+        right: 2%;
         z-index: -1;
-    } */
+    }
 
     .middle-items {
         display: flex;
@@ -333,15 +345,11 @@
         right: -10.5%;
     }
 
-    .middle-items>.desktop-item:nth-child(1) p {
-        max-width: 330px;
-    }
-
     .middle-items>.desktop-item:nth-child(1) {
         display: flex;
         margin-top: 205px;
         flex-direction: column;
-        width: 50%;
+        width: 47%;
         align-items: flex-start;
     }
 
@@ -369,7 +377,7 @@
     }
 
     .low-items .desktop-item .container-item {
-        width: 328px;
+        width: 61%;
     }
 
     .middle-items>.desktop-item:nth-child(2) {
@@ -408,7 +416,7 @@
     }
 
     .low-items .desktop-item:first-child .container-item {
-        width: 262px;
+        width: 53%;
         height: 564px;
     }
 
@@ -452,5 +460,219 @@
         width: 328px;
         height: 360px;
         border-radius: 17px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .desktop-potifolio-2,
+    .desktop-portifolio-1,
+    .desktop-portifolio-5,
+    .desktop-portifolio-4,
+    .desktop-portifolio-principal,
+    .button-view,
+    .line-work-desktop-3,
+    .portofolio-preto-e-branco-desktop {
+        display: initial;
+    }
+
+    .tablet-portifolio-2,
+    .tablet-portifolio-1,
+    .tablet-portifolio-5,
+    .tablet-portifolio-4,
+    .img-portofolio,
+    .line-work-desktop-1,
+    .portofolio-preto-e-branco-tablet {
+        display: none;
+    }
+
+    .folio-desktop {
+        background: url(../../image/folio-desktop.png) no-repeat;
+    }
+
+    .work-famous-projects {
+        height: 463px;
+    }
+
+    .portofolio-preto-e-branco-desktop {
+        position: absolute;
+        background: url(../../image/img-preto-e-branco-desktop.png) no-repeat;
+        width: 672.6px;
+        height: 530.09px;
+        top: 9%;
+        right: 3%;
+        z-index: -1;
+    }
+
+    .img-desktop-container {
+        width: 668px;
+        height: 520px;
+        left: 28.1%;
+        top: 534px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrow-work-blue {
+        width: 60px;
+        height: 61px;
+        background-size: cover;
+    }
+
+    .arrow-desktop {
+        bottom: 12%;
+        right: -6%;
+    }
+
+    .img-desktop-container-middle-2 .arrow-desktop,
+    .img-desktop-container-middle-4 .arrow-desktop {
+        right: -7.5%;
+    }
+
+
+    .button-view {
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+        background: var(--dark);
+        padding: 24px 17px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .work-title,
+    .work-title .work-title-number {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .work-title h3 {
+        font-weight: 700;
+        font-size: 84px;
+        line-height: 100px;
+        letter-spacing: -1px;
+    }
+
+    .work-title p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        width: 60%;
+    }
+
+    .desktop-item-text h4,
+    .container-item h4,
+    .desktop-item h4 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .desktop-item-text p {
+        margin-bottom: 210px;
+        width: 43%;
+    }
+
+    .desktop-item-text button {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        width: 166px;
+        height: 40px;
+    }
+
+    .contact-us-buttton {
+        width: 166px;
+        height: 64px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .desktop-item-text p,
+    .container-item p,
+    .desktop-item p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+
+    }
+
+    .img-desktop-container-middle-1 {
+        width: 470px;
+        height: 500px;
+        border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-desktop-container-middle-2 {
+        width: 366px;
+        height: 360px;
+    }
+
+    .low-items .desktop-item .container-item .img-desktop-container-middle-4 {
+        padding: 137px 0;
+        border-radius: 24px;
+        width: 366px;
+        height: 506px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-desktop-container-middle-2 img {
+        width: 750px;
+        height: 536px;
+        top: -22%;
+        left: -95%;
+        position: absolute;
+    }
+
+    .low-items .desktop-item .container-item .img-desktop-container-middle-3 {
+        width: 467px;
+        height: 506px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-desktop-container-middle-3 img {
+        width: 679px;
+        height: 485px;
+    }
+
+    .middle-items>.desktop-item:nth-child(2) .container-item {
+        width: 364px;
+    }
+
+    .low-items {
+        height: 1041px;
+    }
+
+    .line-work-desktop-3 {
+        background: url(../../image/line-work-img-desktop-3.png) no-repeat;
+        width: 640.21px;
+        height: 560.25px;
+        position: absolute;
+        top: 58%;
+        left: -21%;
+        z-index: -1;
+    }
+
+    .line-img-work-2 {
+        background: url(../../image/line-img-work-4.png) no-repeat;
+        width: 878.22px;
+        height: 322.35px;
+        position: absolute;
+        top: 60%;
+        right: 0px;
+        z-index: -1;
+        opacity: 0.3;
     }
 }

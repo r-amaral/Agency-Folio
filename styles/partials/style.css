@@ -179,7 +179,7 @@
     }
 
     .stand-out-img {
-        height: 742px;
+        height: 730px;
     }
 
     .stand-out-computer-desktop-2 {
@@ -217,10 +217,13 @@
         font-size: 18px;
         line-height: 32px;
         width: 65%;
+        margin-bottom: 46px;
+        margin-top: 46px;
     }
 
     .swipe-down {
         width: 100%;
+        margin-top: 54px;
     }
 
     .line-img-desktop {
@@ -239,6 +242,10 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .stand-out-text {
+        height: 100%;
     }
 
 }

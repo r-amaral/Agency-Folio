@@ -218,10 +218,6 @@ body {
         line-height: 92px;
     }
 
-    .job-we-are-hiring p {
-        /* width: 90%; */
-    }
-
     .available-jobs {
         display: flex;
         align-items: center;
@@ -241,5 +237,66 @@ body {
         height: 40px;
         width: 40px;
     }
+}
 
+@media screen and (min-width:1440px) {
+
+    .job-title span,
+    .job-title h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .job-we-are-hiring h3 {
+        font-weight: 700;
+        font-size: 110px;
+        line-height: 131px;
+        letter-spacing: -1.2px;
+    }
+
+    .job-we-are-hiring p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        width: 77%;
+    }
+
+    .available-jobs {
+        width: 70%;
+    }
+
+    .job-list {
+        max-width: 570px;
+    }
+
+    .job-list li {
+        height: 250px;
+    }
+
+    .title-list h4 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .job-list span {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    section {
+        padding-top: 128px;
+    }
+
+    .job-line-img-desktop {
+        background: url(../../image/line-job-desktop-principal.png) no-repeat;
+        width: 642px;
+        height: 819px;
+        position: absolute;
+        top: 0;
+        left: 17.8%;
+        z-index: -1;
+    }
 }

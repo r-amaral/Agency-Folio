@@ -7,14 +7,6 @@
 @font-face {
     font-family: 'Sf Pro Regular';
     src: url('../fonts/SFPRODISPLAYREGULAR.otf') format('opentype');
-    /*url('fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYBOLD.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYHEAVYITALIC.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYLIGHTITALIC.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYMEDIUM.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYSEMIBOLDITALIC.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYTHINITALIC.otf') format('opentype'),
-        url('fonts/SFPRODISPLAYULTRALIGHTITALIC.otf') format('opentype');*/
 }
 
 @font-face {
@@ -53,4 +45,9 @@ body {
     padding-right: 10%;
 }
 
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1440px) {
+    .container {
+        padding-left: 7.2%;
+        padding-right: 7.2%;
+    }
+}

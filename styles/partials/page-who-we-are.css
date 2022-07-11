@@ -7,6 +7,8 @@
     display: none;
 }
 
+
+
 .who-we-are {
     background: var(--dark);
     padding-top: 64px;
@@ -171,8 +173,6 @@
     margin-bottom: 30px;
 }
 
-
-
 @media screen and (max-width:373px) {
     .contact-us {
         padding-left: 3%;
@@ -212,7 +212,7 @@
 
     .borda-top {
         height: 40px;
-        width: 100vw;
+        width: 100%;
         position: relative;
         background: #ffffff;
         position: absolute;
@@ -475,7 +475,6 @@
     .bigest-branding-28 {
         font-weight: 600;
         font-size: 200px;
-
     }
 
     .bigest-branding-text {

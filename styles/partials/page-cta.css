@@ -1,7 +1,8 @@
 .cta-mask-desktop,
 .img-cta-phone-desktop,
 .logo-folio-desktop,
-.cta-desktop-blue-mask {
+.cta-desktop-blue-mask,
+.img-cta-phone-principal {
     display: none;
 }
 
@@ -114,7 +115,7 @@
         width: 831.29px;
         height: 443.73px;
         left: 5%;
-        top: 20%;
+        top: 21%;
         background: #D1ECFD;
         border-radius: 28.4444px;
         position: absolute;
@@ -163,6 +164,85 @@
         position: absolute;
         top: 6.5%;
         right: -6.5%;
+    }
+}
 
+@media screen and (min-width:1440px) {
+
+    .container-cta {
+        padding-left: 9.37%;
+        padding-right: 9.37%;
+    }
+
+    .img-cta-phone-desktop {
+        display: none;
+    }
+
+    .img-cta-phone-principal {
+        display: initial;
+    }
+
+    .img-cta-phone-principal {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cta-mask-desktop {
+        background: url(../../image/mask-cta-desktop-1440.png) no-repeat;
+        width: 503px;
+        height: 624px;
+        position: absolute;
+        top: 6.5%;
+        right: -6.5%;
+    }
+
+    .cta-figure {
+        height: 620px;
+        margin-left: 45px;
+    }
+
+    .cta {
+        height: 720px;
+        align-items: center;
+    }
+
+    .logo-folio-desktop {
+        background: url(../../image/folio-desktop-footer.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .cta-title span,
+    .cta-title h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .cta-content {
+        width: 45%;
+        margin-left: 26px;
+        margin-top: 134px;
+    }
+
+    .cta-content p {
+        font-size: 64px;
+        line-height: 72px;
+
+    }
+
+    .cta-content button {
+        width: 201px;
+        height: 64px;
+    }
+
+    .cta-desktop-blue-mask {
+        width: 831.29px;
+        height: 620px;
+        left: 5%;
+        top: 17.5%;
+        background: #D1ECFD;
+        border-radius: 28.4444px;
+        position: absolute;
     }
 }
