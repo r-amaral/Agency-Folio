@@ -222,7 +222,7 @@
 
     .who-we-are-title p {
         margin-bottom: 0;
-        font-size: 48px;
+        font-size: 3rem;
     }
 
     .who-we-are-content {
@@ -278,7 +278,7 @@
 
     .date-wo-we-are li {
         font-weight: 600;
-        font-size: 12px;
+        font-size: .7rem;
         line-height: 16px;
         color: var(--text-desactive);
     }
@@ -386,26 +386,26 @@
     .who-we-are-title span,
     .who-we-are-title h2 {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
     .who-we-are-title p {
         font-weight: 700;
-        font-size: 64px;
+        font-size: 4rem;
         line-height: 72px;
         margin-bottom: 83px;
     }
 
     .contact-us h2 {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 2rem;
         line-height: 40px;
     }
 
     .contact-us p {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 32px;
         width: 87%;
     }
@@ -434,14 +434,14 @@
 
     .date-wo-we-are li {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
     .point-line-img {
         left: 70px;
         top: 0;
-        width: 12.5vw;
+        width: 15.5vw;
     }
 
     .point-line-active-img {
@@ -474,12 +474,12 @@
 
     .bigest-branding-28 {
         font-weight: 600;
-        font-size: 200px;
+        font-size: 12.5rem;
     }
 
     .bigest-branding-text {
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 32px;
         margin-top: 10px;
     }

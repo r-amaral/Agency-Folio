@@ -90,7 +90,7 @@
     }
 
     .stand-out-text h1 {
-        font-size: 64px;
+        font-size: 4rem;
         line-height: 72px;
         letter-spacing: -0.5px;
         width: 80%;
@@ -98,7 +98,7 @@
 
     .stand-out-text p {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 28px;
         width: 60%;
         margin-bottom: 32px;
@@ -159,7 +159,7 @@
     .swipe-down-span {
         color: var(--text-body-dark-mode);
         font-weight: 600;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 22px;
 
     }
@@ -207,14 +207,14 @@
 
     .stand-out-text h1 {
         font-weight: 700;
-        font-size: 84px;
+        font-size: 5.2rem;
         line-height: 100px;
         letter-spacing: -1px;
     }
 
     .stand-out-text p {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 32px;
         width: 65%;
         margin-bottom: 46px;
@@ -240,7 +240,7 @@
     .scroll-down-span {
         color: var(--text-body-dark-mode);
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 22px;
     }
 

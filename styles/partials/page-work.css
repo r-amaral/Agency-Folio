@@ -92,7 +92,7 @@
     bottom: 23px;
     left: 23px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: .6rem;
     line-height: .8rem;
     color: #ffffff;
     text-align: center;
@@ -229,7 +229,7 @@
 
     .work-title h3 {
         font-weight: 700;
-        font-size: 64px;
+        font-size: 4rem;
         line-height: 72px;
         width: 100%;
     }
@@ -270,7 +270,7 @@
     .desktop-item-text h4,
     .desktop-item h4 {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 2rem;
         line-height: 40px;
         letter-spacing: -0.5px;
         color: var(--dark);
@@ -535,7 +535,7 @@
         position: absolute;
         bottom: 32px;
         left: 32px;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
         color: #ffffff;
         background: var(--dark);
@@ -547,20 +547,20 @@
     .work-title,
     .work-title .work-title-number {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
     .work-title h3 {
         font-weight: 700;
-        font-size: 84px;
+        font-size: 5.2rem;
         line-height: 100px;
         letter-spacing: -1px;
     }
 
     .work-title p {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 32px;
         width: 60%;
     }
@@ -569,7 +569,7 @@
     .container-item h4,
     .desktop-item h4 {
         font-weight: 700;
-        font-size: 42px;
+        font-size: 2.6rem;
         line-height: 48px;
     }
 
@@ -580,7 +580,7 @@
 
     .desktop-item-text button {
         font-weight: 600;
-        font-size: 14px;
+        font-size: .8rem;
         line-height: 18px;
         width: 166px;
         height: 40px;
@@ -590,7 +590,7 @@
         width: 166px;
         height: 64px;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
@@ -598,7 +598,7 @@
     .container-item p,
     .desktop-item p {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 32px;
 
     }

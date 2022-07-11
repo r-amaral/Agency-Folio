@@ -45,7 +45,7 @@
 
 .what-we-do p {
     font-weight: 700;
-    font-size: 47px;
+    font-size: 2.9rem;
     line-height: 48px;
     letter-spacing: -0.4px;
     color: var(--dark);
@@ -130,7 +130,7 @@
     color: var(--primary-color);
     box-shadow: 0px 5px 5px #EDEDED;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 24px;
     text-align: center;
 }
@@ -145,7 +145,7 @@
 
 .list-content a {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 24px;
     text-align: center;
     text-decoration: none;
@@ -168,14 +168,14 @@
 
 .what-we-do-achivement-title span {
     font-weight: 600;
-    font-size: 14px;
+    font-size: .8rem;
     line-height: 18px;
     color: var(--text-body-dark-mode);
 }
 
 .what-we-do-achivement-title h2 {
     font-weight: 600;
-    font-size: 14px;
+    font-size: .8rem;
     line-height: 18px;
     color: var(--dark);
 }
@@ -183,7 +183,7 @@
 .what-we-do-achivement p {
     width: 100%;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
     letter-spacing: -0.2px;
     color: var(--dark);
@@ -194,14 +194,14 @@
     color: var(--primary-color);
     font-style: normal;
     font-weight: 600;
-    font-size: 140px;
+    font-size: 8.75rem;
     line-height: 167px;
 }
 
 .sucessful-projects {
     width: 100%;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 24px;
     margin-right: 30px;
     display: flex;
@@ -270,11 +270,7 @@
 
 .what-we-do-list li:hover {
     background: var(--primary-color);
-    /* height: 100%; */
-    /* border-radius: 32px; */
 }
-
-
 
 .pagination-items:nth-child(2) {
     background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
@@ -472,13 +468,13 @@
     .title-number span,
     .title-number h2 {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
     .what-we-do-title p {
         font-weight: 700;
-        font-size: 64px;
+        font-size: 4rem;
         line-height: 72px;
     }
 
@@ -500,30 +496,29 @@
 
     .what-we-do-list li {
         height: 480px;
-        /* max-width: 293px; */
     }
 
     .what-we-do-achivement p {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 2rem;
         line-height: 40px;
     }
 
     .what-we-do-achivement-title span,
     .what-we-do-achivement-title h2 {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 24px;
     }
 
     .what-we-do-achivement-68 {
         font-weight: 600;
-        font-size: 200px;
+        font-size: 12.5rem;
     }
 
     .sucessful-projects {
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 32px;
         margin-top: 42px;
         margin-bottom: 172px;
