@@ -191,3 +191,15 @@
         z-index: 300;
     }
 }
+
+@media screen and (min-width:1440px) {
+    .nav-content {
+        height: 195px;
+    }
+
+    .header-list-tablet-desktop a {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

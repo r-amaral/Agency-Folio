@@ -1,6 +1,8 @@
 .swipe-down,
 .stand-out-img-tablet-desktop,
-.line-img-desktop {
+.line-img-desktop,
+.stand-out-computer-desktop-2,
+.scroll-down-span {
     display: none;
 }
 
@@ -66,7 +68,9 @@
 @media screen and (min-width: 1024px) {
 
     .stand-out-img-mobile,
-    .line-img {
+    .line-img,
+    .stand-out-computer-desktop-2,
+    .scroll-down-span {
         display: none;
     }
 
@@ -152,11 +156,89 @@
         height: 40px;
     }
 
-    .swipe-down span {
+    .swipe-down-span {
         color: var(--text-body-dark-mode);
         font-weight: 600;
         font-size: 16px;
         line-height: 22px;
 
     }
+}
+
+@media screen and (min-width:1440px) {
+
+    .stand-out-img-tablet-desktop,
+    .mask-img,
+    .swipe-down-span {
+        display: none;
+    }
+
+    .stand-out-computer-desktop-2,
+    .scroll-down-span {
+        display: initial;
+    }
+
+    .stand-out-img {
+        height: 742px;
+    }
+
+    .stand-out-computer-desktop-2 {
+        position: absolute;
+        right: 10%;
+        width: 900px;
+        height: 742px;
+        right: 8%;
+        top: -10px;
+    }
+
+    .line-img-desktop {
+        background: url(../../image/stand-out-line-img-desktop-2.png) no-repeat;
+        width: 642.21px;
+        height: 819.25px;
+        position: absolute;
+        top: -230px;
+        z-index: -1;
+        left: 22%;
+    }
+
+    .stand-out-text {
+        height: initial;
+    }
+
+    .stand-out-text h1 {
+        font-weight: 700;
+        font-size: 84px;
+        line-height: 100px;
+        letter-spacing: -1px;
+    }
+
+    .stand-out-text p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        width: 65%;
+    }
+
+    .swipe-down {
+        width: 100%;
+    }
+
+    .line-img-desktop {
+        width: 642.21px;
+        height: 1200.25px;
+    }
+
+    .scroll-down-img {
+        background: url(../../image/swipe-down.png) no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+
+    .scroll-down-span {
+        color: var(--text-body-dark-mode);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
 }
