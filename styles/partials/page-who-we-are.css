@@ -1,7 +1,9 @@
 .who-we-are-logo-desktop,
 .who-we-are-img-principal,
 .date-wo-we-are,
-.line-img-wo-we-are {
+.line-img-wo-we-are,
+.wo-we-are-computer-desktop-principal,
+.mask-who-we-are-desktop {
     display: none;
 }
 
@@ -53,6 +55,7 @@
 
 .select-date {
     width: 75%;
+    max-width: 150px;
     align-self: flex-end;
 }
 
@@ -92,6 +95,7 @@
     background-size: cover;
     background-position: center;
     width: 100vw;
+    max-width: 500px;
     margin-top: 56px;
     height: 424px;
 }
@@ -167,6 +171,8 @@
     margin-bottom: 30px;
 }
 
+
+
 @media screen and (max-width:373px) {
     .contact-us {
         padding-left: 3%;
@@ -177,7 +183,9 @@
 
 @media screen and (min-width:1024px) {
 
-    .control {
+    .control,
+    .wo-we-are-computer-desktop-principal,
+    .mask-who-we-are-desktop {
         display: none;
     }
 
@@ -192,9 +200,9 @@
         width: 50%;
         height: 557.85px;
         position: absolute;
-        top: 40px;
+        top: 0;
         left: 0;
-        z-index: -1;
+        z-index: 0;
     }
 
     .date,
@@ -209,6 +217,7 @@
         background: #ffffff;
         position: absolute;
         top: 0;
+        z-index: 1;
     }
 
     .who-we-are-title p {
@@ -219,7 +228,7 @@
     .who-we-are-content {
         display: flex;
         justify-content: space-between;
-        z-index: 1;
+        z-index: 3;
         margin-top: 40px;
     }
 
@@ -229,7 +238,7 @@
     }
 
     .arrow-date {
-        justify-content: center;
+        justify-content: flex-end;
         margin-bottom: 20px;
     }
 
@@ -237,6 +246,7 @@
         position: relative;
         margin-top: 155px;
         margin-left: 140px;
+        z-index: 4;
     }
 
     .mask-who-we-are {
@@ -247,7 +257,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        z-index: 0;
+        z-index: 2;
     }
 
     .who-we-are-img-principal {
@@ -330,6 +340,148 @@
         background: url(../../image/Content-img.png);
         width: 1.42px;
         height: 56.89px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .who-we-are-img-principal,
+    .mask-who-we-are {
+        display: none;
+    }
+
+    .wo-we-are-computer-desktop-principal,
+    .mask-who-we-are-desktop {
+        display: initial;
+    }
+
+    .who-we-are-content {
+        z-index: 5;
+    }
+
+    .arrow-date {
+        margin-bottom: 120px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        width: 64px;
+        height: 64px;
+    }
+
+    .borda-top {
+        z-index: 1;
+    }
+
+    .line-img-wo-we-are {
+        background: url(../../image/line-img-wo-we-are-desktop.png) no-repeat;
+        width: 748px;
+        height: 500px;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .who-we-are-title span,
+    .who-we-are-title h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .who-we-are-title p {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 72px;
+        margin-bottom: 83px;
+    }
+
+    .contact-us h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .contact-us p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        width: 87%;
+    }
+
+    .mask-who-we-are-desktop {
+        background: url(../../image/mask-wo-we-are-desktop.png) no-repeat;
+        width: 802px;
+        height: 1052px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .wo-we-are-computer-desktop-principal {
+        position: relative;
+        right: -10%;
+        z-index: 4;
+        margin-bottom: 90px;
+    }
+
+    .date-wo-we-are {
+        gap: 102px;
+        top: 425px;
+    }
+
+    .date-wo-we-are li {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .point-line-img {
+        left: 70px;
+        top: 0;
+        width: 12.5vw;
+    }
+
+    .point-line-active-img {
+        right: 100px;
+    }
+
+    figure {
+        height: 688px;
+    }
+
+    .contact-us {
+        margin-top: 40px;
+        padding-right: 80px;
+    }
+
+    .contact-us-img-content {
+        margin-top: 40px;
+    }
+
+    .contact-us button {
+        margin-bottom: 169px;
+    }
+
+    .bigest-branding {
+        box-shadow: none;
+        margin-top: 30px;
+        align-self: flex-start;
+        margin-left: 15px;
+    }
+
+    .bigest-branding-28 {
+        font-weight: 600;
+        font-size: 200px;
+
+    }
+
+    .bigest-branding-text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
         margin-top: 10px;
     }
 }
