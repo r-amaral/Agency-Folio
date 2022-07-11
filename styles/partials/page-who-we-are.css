@@ -144,6 +144,8 @@
     border: none;
 }
 
+
+
 .bigest-branding {
     margin-top: 56px;
     display: flex;
@@ -383,6 +385,20 @@
         z-index: 0;
     }
 
+    .arrow-date {
+        justify-content: center;
+    }
+
+    .who-we-are-logo-desktop {
+        margin-left: 4%;
+        width: 29%;
+    }
+
+    .contact-us-img-content {
+        width: 15%;
+        margin-left: 4%;
+    }
+
     .who-we-are-title span,
     .who-we-are-title h2 {
         font-weight: 600;
@@ -455,10 +471,6 @@
     .contact-us {
         margin-top: 40px;
         padding-right: 80px;
-    }
-
-    .contact-us-img-content {
-        margin-top: 40px;
     }
 
     .contact-us button {
