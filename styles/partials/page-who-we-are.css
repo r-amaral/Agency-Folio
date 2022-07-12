@@ -1,13 +1,11 @@
 .who-we-are-logo-desktop,
-.who-we-are-img-principal,
+.img-computador-content,
 .date-wo-we-are,
 .line-img-wo-we-are,
 .wo-we-are-computer-desktop-principal,
 .mask-who-we-are-desktop {
     display: none;
 }
-
-
 
 .who-we-are {
     background: var(--dark);
@@ -192,7 +190,7 @@
     }
 
     .who-we-are-logo-desktop,
-    .who-we-are-img-principal,
+    .img-computador-content,
     .line-img-wo-we-are {
         display: initial;
     }
@@ -249,6 +247,7 @@
         margin-top: 155px;
         margin-left: 140px;
         z-index: 4;
+        bottom: 40px;
     }
 
     .mask-who-we-are {
@@ -260,12 +259,6 @@
         top: 0;
         right: 0;
         z-index: 2;
-    }
-
-    .who-we-are-img-principal {
-        z-index: 1;
-        position: relative;
-        bottom: 40px;
     }
 
     .date-wo-we-are {
@@ -302,16 +295,35 @@
         right: 70px;
     }
 
-    .point-line-img {
+    .point-line-content {
+        z-index: 10;
+        width: 17vw;
         position: absolute;
-        background: url(../../image/point-line-date.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 15vw;
         height: 20px;
         top: -10%;
-        left: 35px;
-        z-index: 10;
+        left: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    .point-line-item:first-of-type {
+        background: #ffffff;
+        height: 5px;
+        border-radius: 100%;
+        width: 5px;
+    }
+
+    .point-line-content .point-line-item:nth-child(2) {
+        background: #ffffff;
+        width: calc(100% - 16px);
+        height: 1px;
+    }
+
+    .point-line-item:last-of-type {
+        background: #ffffff;
+        height: 16px;
+        border-radius: 100%;
+        width: 16px;
     }
 
     .contact-us {
@@ -348,7 +360,7 @@
 
 @media screen and (min-width:1440px) {
 
-    .who-we-are-img-principal,
+    .img-computador-content,
     .mask-who-we-are {
         display: none;
     }
@@ -454,7 +466,7 @@
         line-height: 24px;
     }
 
-    .point-line-img {
+    .point-line-content {
         left: 70px;
         top: 0;
         width: 15.5vw;
@@ -470,7 +482,6 @@
 
     .contact-us {
         margin-top: 40px;
-        padding-right: 80px;
     }
 
     .contact-us button {
@@ -495,4 +506,27 @@
         line-height: 32px;
         margin-top: 10px;
     }
+}
+
+@media screen and (min-width:1770px) {
+    .point-line-content {
+        left: 70px;
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .point-line-content {
+        left: 70px;
+        width: 420px;
+    }
+
+    .date-wo-we-are {
+        left: calc((100% - 1600px)/2);
+    }
+
+    .who-we-are-logo-desktop {
+        margin: 0;
+    }
+
 }
