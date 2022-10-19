@@ -1,3 +1,7 @@
+@import url("./partials/work.css");
+@import url("./partials/style.css");
+@import url("./partials/services.css");
+
 * {
     margin: 0;
     padding: 0;
