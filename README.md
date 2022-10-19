@@ -1,5 +1,5 @@
 
-# Folio Agency
+# Agency Folio
 
 ### Responsive web application using html, css and javascript
 
