@@ -8,6 +8,8 @@
 
 .cta-page {
     position: relative;
+    padding-bottom: 8%;
+    /* background: #FFFFFF; */
 }
 
 .cta {
@@ -83,7 +85,7 @@
 
 .cta-mask {
     position: absolute;
-    bottom: -5%;
+    bottom: 15px;
     height: 730.18px;
     z-index: 9;
     right: 0;

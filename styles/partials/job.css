@@ -1,11 +1,13 @@
-body {
-    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
-}
-
 .job-img-desktop,
 .available-jobs,
 .job-line-img-desktop {
     display: none;
+}
+
+.job-section {
+    position: relative;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    padding-top: 10%;
 }
 
 .job-title {
@@ -88,13 +90,17 @@ body {
     box-shadow: 0px 5px 5px #EDEDED;
 }
 
-.title-list {
+.job-figure {
+    height: 0;
+}
+
+.title-job-list {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.title-list h4 {
+.title-job-list h4 {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 32px;
@@ -102,7 +108,7 @@ body {
     margin-bottom: 4px;
 }
 
-.title-list a {
+.title-job-list a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,13 +156,13 @@ body {
         margin-right: 13px;
     }
 
-    section {
+    .job-section {
         padding-top: 87px;
         display: flex;
         justify-content: center;
     }
 
-    section a {
+    .job-section a {
         margin-right: 4.5%;
     }
 
